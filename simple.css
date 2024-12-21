@@ -1,0 +1,48 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+}
+.navbar{
+    background-color: beige;
+    padding-top: 10px;
+    padding-left: 10px;
+    height:30px;
+
+    h4{
+        font-style: italic;
+        font-weight:bold;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+      
+    }
+   li{
+    list-style-type: none;
+    display: inline;
+    margin-right: 100px;
+   }
+  
+   .navdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   }
+
+}
+.container{
+    justify-items: center;
+    align-content: center;
+    height:100vh;
+
+    h1{
+        background-color: black;
+        color:white;
+        border-radius: 4px;
+       
+    }
+
+    button{
+        background-color: transparent;
+        border-radius: 4px;
+        margin-top: 10px;
+    }
+
+}
